@@ -24,3 +24,5 @@ async def 청소(interaction: discord.Interaction,
     await interaction.response.send_message(f"Channel {채널} purged.",
                                             ephemeral=True)
     await 채널.purge()
+
+client.run(token)
